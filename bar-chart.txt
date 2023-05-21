@@ -1,0 +1,45 @@
+// const myChart = new Chartjs(
+        //     document.getElementById("right"),
+        //     {
+        //         type: "bar",
+        //         data: {
+        //             labels: ['Production Budget','Worldwide Gross', 'Net Gross'],
+        //             datasets: [{
+        //                 data: [productionBudget, worldwideGross, netGross],
+        //                 backgroundColor: ['rgb(255, 99, 132)', 'rgb(54, 162, 235)', 'rgb(75, 192, 192)']
+        //             }]
+        //         },
+        //         options: {
+        //             plugins: {
+        //                 legend: {
+        //                     display: false
+        //                 }
+        //             },
+        //             scales: {
+        //                 y: {
+        //                     grid: {
+        //                         color: "rgba(241, 246, 249, 0.1)"
+        //                     },
+        //                     ticks: {
+        //                         color: "rgba(241, 246, 249, 0.8)"
+        //                     }
+        //                 },
+        //                 x: {
+        //                     grid: {
+        //                         color: "rgba(241, 246, 249, 0.1)"
+        //                     },
+        //                     ticks: {
+        //                         color: "rgba(241, 246, 249, 0.8)"
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        // );
+
+
+
+/* #right {
+    position: relative;
+    top: 100px;
+} */

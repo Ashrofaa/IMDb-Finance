@@ -1,0 +1,79 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    transition: all 2s;
+    background-color: #212A3E;
+    color: #F1F6F9;
+}
+
+.movieTitle {
+    font-weight: 700;
+}
+
+.movie-name, #select {
+    display: none;
+}
+
+#options {
+    background-color: #394867;
+    height: 250px;
+    width: auto;
+    overflow: auto;
+    border-radius: 20px;
+    transition: all 0.3s;
+    font-weight: 300;
+}
+
+#options::-webkit-scrollbar {
+    width: 1rem;
+  }   
+   
+#options::-webkit-scrollbar-thumb {
+    background-color: #F1F6F9;
+    border-radius: 50%;
+  }
+
+.hidden {
+    opacity: 0; 
+}
+
+#search {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F1F6F9;
+    color: #212A3E;
+    margin-bottom: 1rem;
+}   
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#left, #canvas-container {
+    font-size: 50px;
+    text-align: center;
+    width: 40%;
+}
+
+#listContainer {
+    position: relative;
+    top: 230px;
+}
+
+#arrow {
+    width: 40px;
+    aspect-ratio: 1/1;
+    color: #F1F6F9;
+    position: relative;
+    top: 6px;
+    left: 15px;
+    transition: all 0.3s;
+}
+
+.arrow-inverted {
+    transform: rotate(180deg);
+}
