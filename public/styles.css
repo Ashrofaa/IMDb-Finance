@@ -53,6 +53,16 @@ body {
     padding: 100px;
 }
 
+@media (max-width: 1397px){
+    #container {
+        display: block;
+        padding: 0;
+    }
+    #left, #canvas-container {
+        margin: auto;
+    }
+}
+
 #left, #canvas-container {
     font-size: 50px;
     text-align: center;
